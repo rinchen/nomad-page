@@ -27,8 +27,6 @@ Nomad Network host.
 
 `!OPEN SOURCE`!
 ........................................
-Written primarily in TypeScript and released under the MIT
-license. The project currently has 74 GitHub stars and 9 forks.
 
 `_`[Project website`https://colorado-mesh.github.io/mesh-client/]`_`
 `_`[Source code on GitHub`https://github.com/Colorado-Mesh/mesh-client]`_`
