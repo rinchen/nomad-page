@@ -1,20 +1,27 @@
-#!c=30
 `c
-`!Join Colorado Mesh`!
+`!JOIN COLORADO MESH`!
+========================================
 `a
 
-`---`
+For everyone, everywhere.
 
-For everyone, everywhere. Join us:
+`!DISCORD`!
+........................................
+Meet the community, ask questions, and share what you're
+building. For help with the desktop app, visit #mesh-client.
+`_`[Discord invitation`https://discord.com/invite/McChKR5NpS]`_`
 
-`_`[Discord`https://discord.com/invite/McChKR5NpS]`_`
-  Ask about the client in `#mesh-client`
-
+`!COLORADO MESH`!
+........................................
+Learn about Colorado's decentralized mesh networking community.
 `_`[coloradomesh.org`https://coloradomesh.org/]`_`
 
-`_`[mesh-client on GitHub`https://github.com/Colorado-Mesh/mesh-client]`_`
+`!BUILD WITH US`!
+........................................
+Explore the Colorado Mesh Mesh Client, report issues, and
+contribute on GitHub.
+`_`[Colorado Mesh Mesh Client`https://github.com/Colorado-Mesh/mesh-client]`_`
 
-`---`
-
+........................................
 `[← Home`:/page/index.mu`*]`
-`[About mesh-client`:/page/mesh-client.mu`*]`
+`[About the Mesh Client`:/page/mesh-client.mu`*]`

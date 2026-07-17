@@ -1,21 +1,23 @@
-#!c=30
 `c
-`!Joey Stanford`!
-`F888`Colorado Mesh · Nomad Network`f
+`!JOEY STANFORD`!
+Colorado Mesh / Nomad Network
+========================================
 `a
 
-`---`
+Welcome to my node.
 
-Welcome. This node is hosted by `*mesh-client`* and shares a few things about me, the client, and how to join Colorado Mesh.
+I'm an open source, ham radio, data privacy, and security geek
+in Colorado. This site is served over Reticulum by the
+`!Colorado Mesh Mesh Client`!.
 
-`---`
-
-`!Navigate`!
-
+`!EXPLORE`!
+........................................
 `[About me`:/page/about.mu`*]`
-`[mesh-client`:/page/mesh-client.mu`*]`
+`[The Colorado Mesh Mesh Client`:/page/mesh-client.mu`*]`
 `[Join the community`:/page/community.mu`*]`
 
-`---`
-
-For everyone, everywhere. `_[Join us`:/page/community.mu`*]`_
+........................................
+`c
+For everyone, everywhere.
+`[Join Colorado Mesh`:/page/community.mu`*]`
+`a
