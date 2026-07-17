@@ -1,23 +1,31 @@
+#!bg=020617
+#!fg=d1d5db
 `c
-`!JOEY STANFORD`!
-Colorado Mesh / Nomad Network
-========================================
+`FT86efac`!JOEY STANFORD`!`f
+`FT94a3b8Colorado Mesh / Nomad Network`f
+`FT334155
+-
+`f
 `a
 
 Welcome to my node.
 
 I'm an open source, ham radio, data privacy, and security geek
-in Colorado. This site is served over Reticulum by the
-`!Colorado Mesh Mesh Client`!.
+in Colorado. This site is served over `FTf59e0bReticulum`f by the
+`FT86efac`!Colorado Mesh Mesh Client`!`f.
 
-`!EXPLORE`!
-........................................
-`[About me`:/page/about.mu`*]`
-`[The Colorado Mesh Mesh Client`:/page/mesh-client.mu`*]`
-`[Join the community`:/page/community.mu`*]`
+`FT60a5fa`!EXPLORE`!`f
+`FT334155
+-.
+`f
+`FT86efac`[About me`:/page/about.mu`*]`f
+`FT22d3ee`[The Colorado Mesh Mesh Client`:/page/mesh-client.mu`*]`f
+`FTf59e0b`[Join the community`:/page/community.mu`*]`f
 
-........................................
+`FT334155
+-.
+`f
 `c
-For everyone, everywhere.
-`[Join Colorado Mesh`:/page/community.mu`*]`
+`FT94a3b8For everyone, everywhere.`f
+`BT1e293b`FTfbbf24`!`[Join Colorado Mesh`:/page/community.mu`*]`!`b`f
 `a

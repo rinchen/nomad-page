@@ -1,27 +1,39 @@
+#!bg=020617
+#!fg=d1d5db
 `c
-`!JOIN COLORADO MESH`!
-========================================
+`FT86efac`!JOIN COLORADO MESH`!`f
+`FT334155
+-
+`f
 `a
 
-For everyone, everywhere.
+`FT94a3b8For everyone, everywhere.`f
 
-`!DISCORD`!
-........................................
+`FT60a5fa`!DISCORD`!`f
+`FT334155
+-.
+`f
 Meet the community, ask questions, and share what you're
 building. For help with the desktop app, visit #mesh-client.
-`_`[Discord invitation`https://discord.com/invite/McChKR5NpS]`_`
+`BT1e293b`FTfbbf24`_`[Discord invitation`https://discord.com/invite/McChKR5NpS]`_`b`f
 
-`!COLORADO MESH`!
-........................................
+`FT60a5fa`!COLORADO MESH`!`f
+`FT334155
+-.
+`f
 Learn about Colorado's decentralized mesh networking community.
-`_`[coloradomesh.org`https://coloradomesh.org/]`_`
+`BT1e293b`FTfbbf24`_`[coloradomesh.org`https://coloradomesh.org/]`_`b`f
 
-`!BUILD WITH US`!
-........................................
+`FT60a5fa`!BUILD WITH US`!`f
+`FT334155
+-.
+`f
 Explore the Colorado Mesh Mesh Client, report issues, and
 contribute on GitHub.
 `_`[Colorado Mesh Mesh Client`https://github.com/Colorado-Mesh/mesh-client]`_`
 
-........................................
-`[← Home`:/page/index.mu`*]`
-`[About the Mesh Client`:/page/mesh-client.mu`*]`
+`FT334155
+-.
+`f
+`FT94a3b8`[← Home`:/page/index.mu`*]`f
+`FT22d3ee`[About the Mesh Client`:/page/mesh-client.mu`*]`f
