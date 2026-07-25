@@ -21,6 +21,7 @@ in Colorado. This site is served over `FTf59e0bReticulum`f by the
 `FT86efac`[About me`:/page/about.mu`*]`f
 `FT22d3ee`[The Colorado Mesh Mesh Client`:/page/mesh-client.mu`*]`f
 `FTf59e0b`[Join the community`:/page/community.mu`*]`f
+`FT60a5fa`[Resources`:/page/resources.mu`*]`f
 
 `FT334155
 -.
@@ -29,3 +30,11 @@ in Colorado. This site is served over `FTf59e0bReticulum`f by the
 `FT94a3b8For everyone, everywhere.`f
 `BT1e293b`FTfbbf24`!`[Join Colorado Mesh`:/page/community.mu`*]`!`b`f
 `a
+
+`FT334155
+-.
+`f
+`FT94a3b8`[About`:/page/about.mu`*]`f
+`FT22d3ee`[Mesh Client`:/page/mesh-client.mu`*]`f
+`FTf59e0b`[Community`:/page/community.mu`*]`f
+`FT60a5fa`[Resources`:/page/resources.mu`*]`f

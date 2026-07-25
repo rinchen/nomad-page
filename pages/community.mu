@@ -22,7 +22,7 @@ building. For help with the desktop app, visit #mesh-client.
 -.
 `f
 Learn about Colorado's decentralized mesh networking community.
-`BT1e293b`FTfbbf24`_`[coloradomesh.org`https://coloradomesh.org/]`_`b`f
+`BT1e293b`FTfbbf24`_`[coloradomesh.org`https://coloradomesh.org]`_`b`f
 
 `FT60a5fa`!BUILD WITH US`!`f
 `FT334155
@@ -36,4 +36,6 @@ contribute on GitHub.
 -.
 `f
 `FT94a3b8`[← Home`:/page/index.mu`*]`f
-`FT22d3ee`[About the Mesh Client`:/page/mesh-client.mu`*]`f
+`FT86efac`[About`:/page/about.mu`*]`f
+`FT22d3ee`[Mesh Client`:/page/mesh-client.mu`*]`f
+`FT60a5fa`[Resources`:/page/resources.mu`*]`f
