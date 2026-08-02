@@ -6,16 +6,30 @@ Static [Nomad Network](https://github.com/markqvist/NomadNet) Micron site for [J
 
 | File | Path served | Contents |
 | --- | --- | --- |
-| [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub and navigation |
-| [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / GitHub profile |
-| [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch and repo link |
-| [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Discord, Colorado Mesh website, GitHub |
+| [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub, Colorado flag ASCII hero, Micron-browser note, navigation |
+| [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / quick-facts table / what I do in Colorado Mesh / contact |
+| [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch, protocol table, open source, related projects |
+| [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, tools, coverage maps |
+| [`pages/resources.mu`](pages/resources.mu) | `/page/resources.mu` | Protocols, compare table, hardware, learn, Colorado Mesh links, downloads |
+| [`pages/now.mu`](pages/now.mu) | `/page/now.mu` | Current focus / recent / up next |
+| [`pages/README.mu`](pages/README.mu) | `/page/README.mu` | Compact node info (NomadNet root convention) |
+
+Hosted downloads (served at `/file/<name>` from `files/`):
+
+| File | Route |
+| --- | --- |
+| [`files/mesh-client-links.txt`](files/mesh-client-links.txt) | `/file/mesh-client-links.txt` |
 
 Community links match the mesh-client app footer:
 
-- Discord: https://discord.com/invite/McChKR5NpS (`#mesh-client`)
+- Discord: https://discord.coloradomesh.org (non-expiring)
 - Website: https://coloradomesh.org/
 - GitHub: https://github.com/Colorado-Mesh/mesh-client
+
+Community content on the pages (regional groups, weekly net, tools, coverage
+maps) is sourced from [coloradomesh.org](https://coloradomesh.org), licensed
+CC BY-SA 4.0. Regional group listings point to the Discord server's regional
+channels as the authoritative, up-to-date list.
 
 ## Palette
 
@@ -39,6 +53,30 @@ Dividers use Micron native rules (`-` for `<hr>`, `-.` for a dotted rule) after
 setting the muted slate foreground. Inline colors always reset with `` `f `` /
 `` `b `` so formatting does not bleed across sections.
 
+## Extra markup used
+
+The pages use a few more Micron features, all supported by mesh-client's
+vendored `micron-parser.js`:
+
+- **Anchors & jump links** — `` `:anchor-name `` plants a zero-width anchor on
+  its line; `[label`#anchor-name]` is an in-page jump (the viewer lets the
+  browser scroll to it). `:top` + `Back to top` links are on every page.
+- **Colored ASCII hero** — the index page hero is a small ASCII Colorado flag
+  built from `█` runs in inline `` `FTxxxxxx` `` color spans (blue field, white
+  stripe, red C, gold disc). Each non-empty line renders as its own block, so
+  no literal block is needed.
+- **Literal blocks** — `` `= `` on its own line toggles monospace literal mode;
+  currently unused by the pages, but supported. Keep art lines ≤ 80 cols.
+- **Tables** — `` `tc `` / `` `tl `` / `` `tr `` open a table, `` `t `` closes it.
+  Alignment is set on the separator row (`:---|`, `|---|`, `|:---:|`).
+- **Nerd Font icons** — glyphs like `` `` `` `` `` `` are FA4 codepoints,
+  rendered by a locally installed Nerd Font; used only on link/header lines so
+  body prose stays readable without one.
+- **File downloads** — `[label`:/file/name.txt]` opens mesh-client's
+  `/file/...` download path (files live in `files/`).
+- **No `*` link fields** — plain `[label`url]` navigation links (no form
+  submission specs).
+
 ## Host with mesh-client
 
 mesh-client serves static Micron pages from **Nomad Network → My Pages** (no CGI). Prefer pointing at this repository as a watched folder so edits hot-reload.
@@ -56,12 +94,15 @@ Source of truth for the markup is this repository. My Pages lists hosted paths a
 
 After serving, confirm:
 
-- All four routes (`index`, `about`, `mesh-client`, `community`) render with the dark palette
+- All routes (`index`, `about`, `mesh-client`, `community`, `resources`,
+  `now`, `README`) render with the dark palette
 - Exact brand greens/cyans/ambers (not approximate 3-digit doubles)
-- Native dividers and the mesh-client protocol table render cleanly
+- Native dividers, tables, and jump links render cleanly
 - Internal links use `/page/<name>.mu` and navigate correctly
+- `/file/mesh-client-links.txt` downloads
 - External Discord, website, and GitHub links open as expected
-- Narrow/fit-width wrapping remains readable; colors reset between sections
+- Narrow/fit-width wrapping remains readable; ASCII art ≤ 80 cols;
+  colors reset between sections
 
 ## License
 

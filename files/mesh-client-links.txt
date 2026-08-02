@@ -1,0 +1,21 @@
+Colorado Mesh Mesh Client - quick links
+=======================================
+
+  * Project website:   https://colorado-mesh.github.io/mesh-client/
+  * Source code:       https://github.com/Colorado-Mesh/mesh-client
+  * Releases:          https://github.com/Colorado-Mesh/mesh-client/releases
+  * Discord:           https://discord.coloradomesh.org
+  * Colorado Mesh:     https://coloradomesh.org
+
+About
+=====
+
+One desktop app for the three major mesh ecosystems:
+
+  * Meshtastic - LoRa mesh firmware (https://meshtastic.org/)
+  * MeshCore   - companion radio mesh (https://www.meshcore.dev/)
+  * Reticulum   - encrypted mesh stack (https://reticulum.network/)
+
+Cross-platform Electron app for macOS, Linux, and Windows.
+Connect over BLE, USB serial, or Wi-Fi/TCP. Local-first
+message history is stored in SQLite.
