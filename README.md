@@ -9,7 +9,7 @@ Static [Nomad Network](https://github.com/markqvist/NomadNet) Micron site for [J
 | [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub, Colorado flag ASCII hero, Micron-browser note, navigation |
 | [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / quick-facts table / what I do in Colorado Mesh / contact |
 | [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch, protocol table, open source, related projects |
-| [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, tools, coverage maps |
+| [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, community tools, RRC chat hub, coverage maps |
 | [`pages/resources.mu`](pages/resources.mu) | `/page/resources.mu` | Protocols, compare table, hardware, learn, Colorado Mesh links, downloads |
 | [`pages/now.mu`](pages/now.mu) | `/page/now.mu` | Current focus / recent / up next |
 | [`pages/README.mu`](pages/README.mu) | `/page/README.mu` | Compact node info (NomadNet root convention) |
@@ -25,6 +25,11 @@ Community links match the mesh-client app footer:
 - Discord: https://discord.coloradomesh.org (non-expiring)
 - Website: https://coloradomesh.org/
 - GitHub: https://github.com/Colorado-Mesh/mesh-client
+
+The community pages also publish the Colorado Mesh RRC (Reticulum
+Relay Chat) hub destination hash `d765e919676aa0340412a1afae006553`,
+rendered in a literal block on `community`, `resources`, and
+`README` pages, and in `files/mesh-client-links.txt`.
 
 Community content on the pages (regional groups, weekly net, tools, coverage
 maps) is sourced from [coloradomesh.org](https://coloradomesh.org), licensed

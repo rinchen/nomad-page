@@ -130,6 +130,11 @@ Standards, region definitions, and naming conventions.
 `FT86efac`_`[Meshtastic map`https://map.meshtastic.coloradomesh.org]`_`f
 Live health and coverage for the Colorado networks.
 
+`FTf59e0b`!RRC hub`!`f - live relay chat over the mesh:
+`=
+d765e919676aa0340412a1afae006553
+`=
+
 `:community`FT60a5fa`!COMMUNITY`!`f
 `FT334155
 -.

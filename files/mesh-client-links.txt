@@ -19,3 +19,11 @@ One desktop app for the three major mesh ecosystems:
 Cross-platform Electron app for macOS, Linux, and Windows.
 Connect over BLE, USB serial, or Wi-Fi/TCP. Local-first
 message history is stored in SQLite.
+
+RRC (Reticulum Relay Chat)
+==========================
+
+Live chat rooms over the Reticulum mesh. Add the hub in the
+app's RRC tab (Reticulum > RRC > Add hub) and join a room:
+
+  * Colorado Mesh hub hash: d765e919676aa0340412a1afae006553

@@ -31,6 +31,7 @@ and `FTf59e0bReticulum`f on 915 MHz LoRa.
 `f
 `FTf59e0b`[What is Colorado Mesh`#what-is]`f
 `FT86efac`[Join the group`#join]`f
+`FTf59e0b`[Live chat (RRC)`#rrc]`f
 `FT22d3ee`[Regional groups`#regions]`f
 `FT60a5fa`[Weekly net`#weekly-net]`f
 `FT86efac`[Community tools`#tools]`f
@@ -69,12 +70,40 @@ questions, share node locations, and coordinate across the
 state. `FT94a3b8It is also where you'll find the full list of
 regional groups.`f
 
+`FTf59e0bNote:`f Looking for a regional channel for your area
+(including non-Colorado and global spaces)? New channels can
+be created on request - ask on Discord.
+
 `FT86efac`[Meshtastic config`https://coloradomesh.org/networks/meshtastic]`f
 Channels, MQTT, and best practices for joining the mesh.
 
 `FT22d3ee`[MeshCore portal`https://meshcore.coloradomesh.org]`f
 Guides for flashing devices, companion and repeater setup,
 and prefix planning for the Front Range mesh.
+
+`:rrc`FTf59e0b`!LIVE CHAT ON THE MESH (RRC)`!`f
+`FT334155
+-.
+`f
+Colorado Mesh runs a `FTf59e0bReticulum`f Relay Chat (RRC)
+hub - real-time chat rooms straight over the mesh, no
+internet needed.
+
+Add this hub in any RRC-capable client (or join in Nomad
+Net 1.1.0+). In the `FT86efac`!Colorado Mesh Mesh Client`!`f,
+open `FTf59e0bReticulum`f -> RRC -> Add hub, paste the hash,
+and join a room:
+
+`=
+d765e919676aa0340412a1afae006553
+`=
+
+The chat hub currently has a `FTf59e0b#general`f room to get
+started in.
+
+`BT1e293b`FTfbbf24`_`[ Join the Discord`https://discord.coloradomesh.org]`_`b`f
+Discord is still the best first stop for questions and
+node locations if you aren't on the mesh chat yet.
 
 `:regions`FT60a5fa`!REGIONAL GROUPS`!`f
 `FT334155
@@ -85,22 +114,28 @@ listed here, and new ones start all the time. The Discord
 server's regional channels are the authoritative, up-to-date
 list - `FT86efac`_`[see all regional groups`https://discord.coloradomesh.org]`_`f.
 
-Groups with regional pages on coloradomesh.org (currently
-under construction as regional portals are created):
+Current regional channels on the Discord server:
 
 `tl
-| region | regional page |
-|:-------|:--------------|
-| Fort Collins | `FT86efac`[FOCO Mesh`https://coloradomesh.org/colorado/focomesh]`f |
-| Boulder & Longmont | `FT86efac`[Longmont mesh`https://coloradomesh.org/colorado/longmont]`f |
-| Western Slope | `FT86efac`[Western Slope`https://coloradomesh.org/colorado/western]`f |
-| Aurora | `FT86efac`[Aurora`https://coloradomesh.org/colorado/aurora]`f |
-| Colorado Springs | `FT86efac`[Colorado Springs`https://coloradomesh.org/colorado/colorado-springs]`f |
-| Denver | `FT86efac`[Denver`https://coloradomesh.org/colorado/denver]`f |
-| Denver-South | `FT86efac`[Denver-South`https://coloradomesh.org/colorado/den-south]`f |
-| Louisville | `FT86efac`[Louisville`https://coloradomesh.org/colorado/louisville]`f |
-| Pueblo | `FT86efac`[Pueblo`https://coloradomesh.org/colorado/pueblo]`f |
+| region |
+|:-------|
+| Aurora |
+| Boulder, Longmont, and Mead |
+| Colorado Springs |
+| CU Boulder |
+| Denver |
+| Denver South Suburbs |
+| Fort Collins and Greeley |
+| Louisville, Lafayette, and Superior |
+| Pueblo |
+| San Luis Valley |
+| Western Slope |
+| Summit County |
 `t
+
+Groups with regional pages on coloradomesh.org (currently
+under construction as regional portals are created) link
+from those channels.
 
 `:weekly-net`FT60a5fa`!WEEKLY NET`!`f
 `FT334155
@@ -115,7 +150,8 @@ everyone checks in every week.
 |:--------|:------|
 | `FT86efacMeshtastic`f | Thursdays 7 pm MDT, Channel 0 (Long-Fast) |
 | `FT86efacMeshtastic MQTT`f | mqtt.meshtastic.org, topic `FT94a3b8msh/US/CO`f |
-| `FT22d3eeMeshCore`f | `FT22d3ee`[weekly net portal`https://weekly-net.meshcore.coloradomesh.org]`f |
+| `FT22d3eeMeshCore`f | Thursdays 7 pm MDT, `FT22d3ee`[weekly net portal`https://weekly-net.meshcore.coloradomesh.org]`f |
+| `FTf59e0bReticulum`f | Thursdays 7 pm MDT, `FTf59e0b`[RRC hub`#rrc]` - room `FTf59e0b#general`f |
 | `FTf59e0bDiscord`f | `FTf59e0b`[net check-in channels`https://discord.coloradomesh.org]`f |
 `t
 
