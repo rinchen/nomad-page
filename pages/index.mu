@@ -1,6 +1,13 @@
 #!bg=020617
 #!fg=d1d5db
 `c
+`FT334155
+-
+`f
+`FT020617Site looks odd? `[Get the mesh client`:/page/mesh-client.mu]`
+`FT334155
+-
+`f
 `FT86efac`!JOEY STANFORD`!`f
 `FT94a3b8Colorado Mesh / Nomad Network`f
 `FT334155
@@ -13,9 +20,6 @@
 `FT1d4ed8█████████████████████`f
 `FT1d4ed8█████████████████████`f
 `a
-
-`FT94a3b8If this site looks odd to you, you don't have a fully`f
-`FT94a3b8compatible Micron browser. `FT86efac`[Check out the mesh client`:/page/mesh-client.mu]`f`f
 
 Welcome to my node.
 
@@ -33,7 +37,6 @@ LoRa: `FT86efacMeshtastic`f, `FT22d3eeMeshCore`f, and `FTf59e0bReticulum`f.
 `FT86efac`[ About me`:/page/about.mu]`f
 `FT22d3ee`[ The Colorado Mesh Mesh Client`:/page/mesh-client.mu]`f
 `FTf59e0b`[ Join the community`:/page/community.mu]`f
-`FTf59e0b`[ Live chat (RRC)`:/page/community.mu]`f
 `FT60a5fa`[ Resources`:/page/resources.mu]`f
 `FT94a3b8`[Now`:/page/now.mu]`f
 
