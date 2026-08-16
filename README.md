@@ -7,7 +7,7 @@ Static [Nomad Network](https://github.com/markqvist/NomadNet) Micron site for [J
 | File | Path served | Contents |
 | --- | --- | --- |
 | [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub, Colorado flag ASCII hero, Micron-browser note, navigation |
-| [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / quick-facts table / what I do in Colorado Mesh / contact |
+| [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / quick-facts table / what I do in Colorado Mesh / Colorado weather / contact |
 | [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch, protocol table, open source, related projects |
 | [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, community tools, RRC chat hub, coverage maps |
 | [`pages/resources.mu`](pages/resources.mu) | `/page/resources.mu` | Protocols, compare table, hardware, learn, Colorado Mesh links, downloads |
@@ -71,8 +71,13 @@ vendored `micron-parser.js`:
   built from `█` runs in inline `` `FTxxxxxx` `` color spans (blue field, white
   stripe, red C, gold disc). Each non-empty line renders as its own block, so
   no literal block is needed.
+- **Italic links** — soft and CTA links wrap the label in `` `*`[label`url]`*` ``:
+  in the vendored parser `*` toggles *italic* (`` `_ `` toggles *underline*).
+  The viewer underlines every anchor via CSS, so the `` `* `` spans keep
+  descriptive/CTA links visually distinct.
 - **Literal blocks** — `` `= `` on its own line toggles monospace literal mode;
-  currently unused by the pages, but supported. Keep art lines ≤ 80 cols.
+  used for hashes and config snippets (`lxmf://` address, RRC hub hash + add-hub
+  steps, Meshtastic channel config). Keep lines ≤ 80 cols.
 - **Tables** — `` `tc `` / `` `tl `` / `` `tr `` open a table, `` `t `` closes it.
   Alignment is set on the separator row (`:---|`, `|---|`, `|:---:|`).
 - **Nerd Font icons** — glyphs like `` `` `` `` `` `` are FA4 codepoints,

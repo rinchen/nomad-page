@@ -31,15 +31,15 @@ that power the Colorado Mesh, and tools to get started.
 `FT334155
 -.
 `f
-`FTf59e0b`_`[ Reticulum Network Stack`https://reticulum.network/]`_`f
+`FTf59e0b`*`[ Reticulum Network Stack`https://reticulum.network/]`*`f
 The encrypted, resilient mesh networking layer that powers
 Nomad Network and this very page.
 
-`FT86efac`_`[ Meshtastic`https://meshtastic.org/]`_`f
+`FT86efac`*`[ Meshtastic`https://meshtastic.org/]`*`f
 Open source LoRa mesh firmware for affordable off-grid
 communication on inexpensive hardware.
 
-`FT22d3ee`_`[ MeshCore`https://www.meshcore.dev/]`_`f
+`FT22d3ee`*`[ MeshCore`https://www.meshcore.dev/]`*`f
 Lightweight mesh networking for companion radios with
 advanced routing and contact management.
 
@@ -73,15 +73,15 @@ all three on the same 915 MHz band.
 | Encryption | on by default | on by default | end-to-end |
 `t
 
-`FTf59e0b`_`[Reticulum quick start`https://reticulum.network/start.html]`_`f
-`FTf59e0b`_`[The Zen of Reticulum`https://zenofreticulum.network/]`_`f
-`FT86efac`_`[Meshtastic vs MeshCore - Austin Mesh`https://www.austinmesh.org/learn/meshcore-vs-meshtastic]`_`f
+`FTf59e0b`*`[Reticulum quick start`https://reticulum.network/start.html]`*`f
+`FTf59e0b`*`[The Zen of Reticulum`https://zenofreticulum.network/]`*`f
+`FT86efac`*`[Meshtastic vs MeshCore - Austin Mesh`https://www.austinmesh.org/learn/meshcore-vs-meshtastic]`*`f
 
 `:nomad-network`FT60a5fa`!NOMAD NETWORK`!`f
 `FT334155
 -.
 `f
-`FTf59e0b`_`[Nomad Network Guide`https://github.com/markqvist/NomadNet]`_`f
+`FTf59e0b`*`[Nomad Network Guide`https://github.com/markqvist/NomadNet]`*`f
 Learn how to host your own pages on the encrypted mesh
 and browse what others are sharing.
 
@@ -89,11 +89,11 @@ and browse what others are sharing.
 `FT334155
 -.
 `f
-`_`[Meshtastic supported devices`https://meshtastic.org/docs/supported-hardware/]`_`
+`*`[Meshtastic supported devices`https://meshtastic.org/docs/supported-hardware/]`*`
 LoRa radios that work with Meshtastic firmware, from
 budget heltec modules to professional-grade devices.
 
-`_`[MeshCore compatible hardware`https://www.meshcore.dev/docs/hardware]`_`
+`*`[MeshCore compatible hardware`https://www.meshcore.dev/docs/hardware]`*`
 Radios supported by MeshCore for companion radio use.
 
 `:learn`FT60a5fa`!LEARN`!`f
@@ -103,11 +103,11 @@ Radios supported by MeshCore for companion radio use.
 Getting a ham radio license is a great way to understand the
 airwaves and to help with emergency mesh work.
 
-`_`[ARRL - National association for amateur radio`https://www.arrl.org/]`_
+`*`[ARRL - National association for amateur radio`https://www.arrl.org/]`_
 Resources, study materials, and community for getting
 your ham radio license.
 
-`_`[HamStudy.org`https://hamstudy.org/]`_
+`*`[HamStudy.org`https://hamstudy.org/]`_
 Free practice exams for Technician, General, and
 Extra class amateur radio licenses.
 
@@ -115,19 +115,25 @@ Extra class amateur radio licenses.
 `FT334155
 -.
 `f
-`FT86efac`_`[Meshtastic config`https://coloradomesh.org/networks/meshtastic]`_`f
+`FT86efac`*`[Meshtastic config`https://coloradomesh.org/networks/meshtastic]`*`f
 Channel settings, MQTT, and best practices for the Colorado
 meshtastic network.
 
-`FT22d3ee`_`[MeshCore portal`https://meshcore.coloradomesh.org]`_`f
+`=
+# colorado meshtastic channel 0 (msh/US/CO)
+name: LongFast   region: US 915 MHz
+mqtt: mqtt.meshtastic.org  topic: msh/US/CO
+`=
+
+`FT22d3ee`*`[MeshCore portal`https://meshcore.coloradomesh.org]`*`f
 Flashing guides, companion and repeater setup, and prefix
 planning for the Front Range mesh.
 
-`FT86efac`_`[Community docs`https://github.com/Colorado-Mesh/docs]`_`f
+`FT86efac`*`[Community docs`https://github.com/Colorado-Mesh/docs]`*`f
 Standards, region definitions, and naming conventions.
 
-`FT22d3ee`_`[Network analyzer`https://analyzer.meshcore.coloradomesh.org]`_`f
-`FT86efac`_`[Meshtastic map`https://map.meshtastic.coloradomesh.org]`_`f
+`FT22d3ee`*`[Network analyzer`https://analyzer.meshcore.coloradomesh.org]`*`f
+`FT86efac`*`[Meshtastic map`https://map.meshtastic.coloradomesh.org]`*`f
 Live health and coverage for the Colorado networks.
 
 `FTf59e0b`!RRC hub`!`f - live relay chat over the mesh:
@@ -139,9 +145,9 @@ d765e919676aa0340412a1afae006553
 `FT334155
 -.
 `f
-`BT1e293b`FTfbbf24`_`[ Join Colorado Mesh`https://discord.coloradomesh.org]`_`b`f
-`BT1e293b`FTfbbf24`_`[ coloradomesh.org`https://coloradomesh.org]`_`b`f
-`FT86efac`_`[ Colorado Mesh Mesh Client`https://github.com/Colorado-Mesh/mesh-client]`_`f
+`BT1e293b`FTfbbf24`*`[ Join Colorado Mesh`https://discord.coloradomesh.org]`*`b`f
+`BT1e293b`FTfbbf24`*`[ coloradomesh.org`https://coloradomesh.org]`*`b`f
+`FT86efac`*`[ Colorado Mesh Mesh Client`https://github.com/Colorado-Mesh/mesh-client]`*`f
 
 `:files`FT60a5fa`!FILES`!`f
 `FT334155

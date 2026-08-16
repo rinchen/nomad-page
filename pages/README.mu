@@ -33,8 +33,8 @@ served over `FTf59e0bReticulum`f by the
 `FT334155
 -.
 `f
-`BT1e293b`FTfbbf24`_`[ Colorado Mesh Discord`https://discord.coloradomesh.org]`_`b`f
-`BT1e293b`FTfbbf24`_`[ coloradomesh.org`https://coloradomesh.org]`_`b`f
+`BT1e293b`FTfbbf24`*`[ Colorado Mesh Discord`https://discord.coloradomesh.org]`*`b`f
+`BT1e293b`FTfbbf24`*`[ coloradomesh.org`https://coloradomesh.org]`*`b`f
 `FTf59e0b`!RRC hub`!`f d765e919676aa0340412a1afae006553
 
 `FT334155

@@ -58,13 +58,13 @@ airwaves:
 | `FTf59e0bReticulum`f | encrypted stack powering Nomad Network |
 `t
 
-`BT1e293b`FTfbbf24`_`[ coloradomesh.org`https://coloradomesh.org]`_`b`f
+`BT1e293b`FTfbbf24`*`[ coloradomesh.org`https://coloradomesh.org]`*`b`f
 
 `:join`FT60a5fa`!JOIN THE GROUP`!`f
 `FT334155
 -.
 `f
-`BT1e293b`FTfbbf24`_`[ Join the Discord`https://discord.coloradomesh.org]`_`b`f
+`BT1e293b`FTfbbf24`*`[ Join the Discord`https://discord.coloradomesh.org]`*`b`f
 The Discord server is where the community gathers to ask
 questions, share node locations, and coordinate across the
 state. `FT94a3b8It is also where you'll find the full list of
@@ -98,10 +98,16 @@ and join a room:
 d765e919676aa0340412a1afae006553
 `=
 
+`=
+mesh-client: Reticulum -> RRC -> Add hub
+paste: d765e919676aa0340412a1afae006553
+join: #general
+`=
+
 The chat hub currently has a `FTf59e0b#general`f room to get
 started in.
 
-`BT1e293b`FTfbbf24`_`[ Join the Discord`https://discord.coloradomesh.org]`_`b`f
+`BT1e293b`FTfbbf24`*`[ Join the Discord`https://discord.coloradomesh.org]`*`b`f
 Discord is still the best first stop for questions and
 node locations if you aren't on the mesh chat yet.
 
@@ -112,7 +118,7 @@ node locations if you aren't on the mesh chat yet.
 Colorado has `FTf59e0b`!many more regional groups`!`f than can be
 listed here, and new ones start all the time. The Discord
 server's regional channels are the authoritative, up-to-date
-list - `FT86efac`_`[see all regional groups`https://discord.coloradomesh.org]`_`f.
+list - `FT86efac`*`[see all regional groups`https://discord.coloradomesh.org]`*`f.
 
 Current regional channels on the Discord server:
 
@@ -180,24 +186,24 @@ analyzer - ask on Discord for details.
 `FT334155
 -.
 `f
-`FT22d3ee`_`[MeshCore coverage`https://co.meshmapper.net]`_`f
+`FT22d3ee`*`[MeshCore coverage`https://co.meshmapper.net]`*`f
 Live MeshCore traffic and wardriven coverage for Colorado.
 
-`FT86efac`_`[Meshtastic coverage`https://map.meshtastic.coloradomesh.org]`_`f
+`FT86efac`*`[Meshtastic coverage`https://map.meshtastic.coloradomesh.org]`*`f
 Meshtastic nodes on the msh/US/CO MQTT topic.
 
-`FTf59e0b`_`[Reticulum - RMAP World`https://rmap.world/]`_`f
+`FTf59e0b`*`[Reticulum - RMAP World`https://rmap.world/]`*`f
 Global map of Reticulum nodes.
 
 `:build`FT60a5fa`!BUILD WITH US`!`f
 `FT334155
 -.
 `f
-`FT86efac`_`[ Colorado Mesh on GitHub`https://github.com/colorado-Mesh/]`_`f
+`FT86efac`*`[ Colorado Mesh on GitHub`https://github.com/colorado-Mesh/]`*`f
 The community GitHub org hosts the tools, documentation, and
 the `FT86efac`!Colorado Mesh Mesh Client`!`f.
 
-`FTf59e0b`_`[MeshCore standards`https://github.com/Colorado-Mesh/docs/tree/master/MeshCore/standards]`_`f
+`FTf59e0b`*`[MeshCore standards`https://github.com/Colorado-Mesh/docs/tree/master/MeshCore/standards]`*`f
 Radio settings, region definitions, and naming conventions.
 
 `FT334155

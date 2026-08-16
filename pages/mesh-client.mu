@@ -42,7 +42,7 @@ or Wi-Fi/TCP and keep local message history in SQLite.
   * Install and open the app
   * Connect a radio over BLE, serial, or Wi-Fi
 
-`BT1e293b`FTfbbf24`_`[ Download latest release`https://github.com/Colorado-Mesh/mesh-client/releases]`_`b`f
+`BT1e293b`FTfbbf24`*`[ Download latest release`https://github.com/Colorado-Mesh/mesh-client/releases]`*`b`f
 
 `:highlights`FT60a5fa`!HIGHLIGHTS`!`f
 `FT334155
@@ -66,24 +66,24 @@ Nomad Network host.
 -.
 `f
 
-`BT1e293b`FTfbbf24`_`[ Project website`https://colorado-mesh.github.io/mesh-client/]`_`b`f
-`FT86efac`_`[ Source code on GitHub`https://github.com/Colorado-Mesh/mesh-client]`_`f
+`BT1e293b`FTfbbf24`*`[ Project website`https://colorado-mesh.github.io/mesh-client/]`*`b`f
+`FT86efac`*`[ Source code on GitHub`https://github.com/Colorado-Mesh/mesh-client]`*`f
 
 `:related-projects`FT60a5fa`!RELATED PROJECTS`!`f
 `FT334155
 -.
 `f
-`FTf59e0b`_`[NomadNet`https://github.com/markqvist/NomadNet]`_`f
+`FTf59e0b`*`[NomadNet`https://github.com/markqvist/NomadNet]`*`f
 Decentralized information network over Reticulum - this very
 page is hosted on one.
 
-`FTf59e0b`_`[Reticulum`https://reticulum.network/]`_`f
+`FTf59e0b`*`[Reticulum`https://reticulum.network/]`*`f
 The encrypted networking stack that powers Nomad Network.
 
-`FT22d3ee`_`[Sideband`https://github.com/markqvist/Sideband]`_`f
+`FT22d3ee`*`[Sideband`https://github.com/markqvist/Sideband]`*`f
 Mobile messaging app for LXMF conversations over Reticulum.
 
-`FT86efac`_`[Colorado Mesh`https://coloradomesh.org]`_`f
+`FT86efac`*`[Colorado Mesh`https://coloradomesh.org]`*`f
 The community this client is built for.
 
 `FT334155
