@@ -93,4 +93,5 @@ The community this client is built for.
 `FT86efac`[ About`:/page/about.mu]`f
 `FTf59e0b`[ Community`:/page/community.mu]`f
 `FT60a5fa`[ Resources`:/page/resources.mu]`f
+`FTf59e0b`[ Links`:/page/links.mu]`f
 `FT94a3b8`[ Back to top`#top]`f

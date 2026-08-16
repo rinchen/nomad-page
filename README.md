@@ -11,6 +11,7 @@ Static [Nomad Network](https://github.com/markqvist/NomadNet) Micron site for [J
 | [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch, protocol table, open source, related projects |
 | [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, community tools, RRC chat hub, coverage maps |
 | [`pages/resources.mu`](pages/resources.mu) | `/page/resources.mu` | Protocols, compare table, hardware, learn, Colorado Mesh links, downloads |
+| [`pages/links.mu`](pages/links.mu) | `/page/links.mu` | Other Nomad Network nodes: people & sites, destination hashes, add your node |
 | [`pages/now.mu`](pages/now.mu) | `/page/now.mu` | Current focus / recent / up next |
 | [`pages/README.mu`](pages/README.mu) | `/page/README.mu` | Compact node info (NomadNet root convention) |
 
@@ -100,7 +101,7 @@ Source of truth for the markup is this repository. My Pages lists hosted paths a
 After serving, confirm:
 
 - All routes (`index`, `about`, `mesh-client`, `community`, `resources`,
-  `now`, `README`) render with the dark palette
+  `links`, `now`, `README`) render with the dark palette
 - Exact brand greens/cyans/ambers (not approximate 3-digit doubles)
 - Native dividers, tables, and jump links render cleanly
 - Internal links use `/page/<name>.mu` and navigate correctly

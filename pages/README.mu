@@ -20,6 +20,7 @@ served over `FTf59e0bReticulum`f by the
 `FT22d3ee`[ The Colorado Mesh Mesh Client`:/page/mesh-client.mu]`f
 `FTf59e0b`[ Community`:/page/community.mu]`f
 `FT60a5fa`[ Resources`:/page/resources.mu]`f
+`FTf59e0b`[ Links`:/page/links.mu]`f
 `FT94a3b8`[Now`:/page/now.mu]`f
 
 `FT60a5fa`!FILES`!`f
@@ -44,4 +45,5 @@ served over `FTf59e0bReticulum`f by the
 `FT22d3ee`[ Mesh Client`:/page/mesh-client.mu]`f
 `FTf59e0b`[ Community`:/page/community.mu]`f
 `FT60a5fa`[ Resources`:/page/resources.mu]`f
+`FTf59e0b`[ Links`:/page/links.mu]`f
 `FT94a3b8`[ Back to top`#top]`f
