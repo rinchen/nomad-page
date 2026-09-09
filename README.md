@@ -6,7 +6,8 @@ Static [Nomad Network](https://github.com/markqvist/NomadNet) Micron site for [J
 
 | File | Path served | Contents |
 | --- | --- | --- |
-| [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub, Colorado flag ASCII hero, Micron-browser note, navigation |
+| [`pages/index.mu`](pages/index.mu) | `/page/index.mu` | Hub: truecolor COLORADO MESH header, `/media` Denver WebP, then ASCII flag; Micron-browser note, navigation |
+| [`pages/colorado-mesh-header.webp`](pages/colorado-mesh-header.webp) | `/media` request (`path` → this file under `pages/`) | Index hero image (NomadNet 1.4.1 WebP-only media) |
 | [`pages/about.mu`](pages/about.mu) | `/page/about.mu` | About Joey / quick-facts table / what I do in Colorado Mesh / Colorado weather / contact |
 | [`pages/mesh-client.mu`](pages/mesh-client.mu) | `/page/mesh-client.mu` | mesh-client pitch, protocol table, open source, related projects |
 | [`pages/community.mu`](pages/community.mu) | `/page/community.mu` | Logo hero + Colorado Mesh info: what it is, join, regional groups, weekly net, community tools, RRC chat hub, coverage maps |
@@ -67,10 +68,12 @@ vendored `micron-parser.js`:
 - **Anchors & jump links** — `` `:anchor-name `` plants a zero-width anchor on
   its line; `[label`#anchor-name]` is an in-page jump (the viewer lets the
   browser scroll to it). `:top` + `Back to top` links are on every page.
-- **Colored ASCII hero** — the index page hero is a small ASCII Colorado flag
-  built from `█` runs in inline `` `FTxxxxxx` `` color spans (blue field, white
-  stripe, red C, gold disc). Each non-empty line renders as its own block, so
-  no literal block is needed.
+- **Index hero (image then flag)** — truecolor `` `FT22d3a5` `` “COLORADO MESH”
+  title, then a NomadNet 1.4.1 image tag
+  `` `(…`w=n`a=c`:/media/colorado-mesh-header.webp) `` (WebP lives under
+  `pages/` so `/media` can serve it), then the ASCII Colorado flag built from
+  `█` runs in inline `` `FTxxxxxx` `` color spans. Image clients need `/media`
+  support; others still see the title, alt text, and flag.
 - **Italic links** — soft and CTA links wrap the label in `` `*`[label`url]`*` ``:
   in the vendored parser `*` toggles *italic* (`` `_ `` toggles *underline*).
   The viewer underlines every anchor via CSS, so the `` `* `` spans keep
@@ -114,6 +117,8 @@ After serving, confirm:
 - External Discord, website, and GitHub links open as expected
 - Narrow/fit-width wrapping remains readable; ASCII art ≤ 80 cols;
   colors reset between sections
+- Index shows COLORADO MESH header, Denver WebP via `/media` (when the
+  client supports NomadNet 1.4.1 images), then the ASCII flag
 
 ## License
 

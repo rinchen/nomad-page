@@ -8,17 +8,20 @@
 `FT334155
 -
 `f
-`FT86efac`!JOEY STANFORD`!`f
-`FT94a3b8Colorado Mesh / Nomad Network`f
+`FT22d3a5`!COLORADO MESH`!`f
+`FTffffffColorado's Mesh Network Community`f
+`(Colorado Mesh header`w=n`a=c`:/media/colorado-mesh-header.webp)
+`FT1d4ed8█████████████████████`f
+`FT1d4ed8█████████████████████`f
+`FTffffff████`f`FTbf2033████`f`FTffffff█`f`FTffc726████`f`FTffffff████████`f
+`FTffffff████`f`FTbf2033████`f`FTffffff█`f`FTffc726████`f`FTffffff████████`f
+`FT1d4ed8█████████████████████`f
+`FT1d4ed8█████████████████████`f
 `FT334155
 -
 `f
-`FT1d4ed8█████████████████████`f
-`FT1d4ed8█████████████████████`f
-`FTffffff████`f`FTbf2033████`f`FTffffff█`f`FTffc726████`f`FTffffff████████`f
-`FTffffff████`f`FTbf2033████`f`FTffffff█`f`FTffc726████`f`FTffffff████████`f
-`FT1d4ed8█████████████████████`f
-`FT1d4ed8█████████████████████`f
+`FT86efac`!JOEY STANFORD`!`f
+`FT94a3b8Colorado Mesh / Nomad Network`f
 `a
 
 Welcome to my node.
