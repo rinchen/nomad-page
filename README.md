@@ -70,10 +70,12 @@ vendored `micron-parser.js`:
   browser scroll to it). `:top` + `Back to top` links are on every page.
 - **Index hero (image then flag)** — truecolor `` `FT22d3a5` `` “COLORADO MESH”
   title, then a NomadNet 1.4.1 image tag
-  `` `(…`w=n`a=c`:/media/colorado-mesh-header.webp) `` (WebP lives under
-  `pages/` so `/media` can serve it), then the ASCII Colorado flag built from
-  `█` runs in inline `` `FTxxxxxx` `` color spans. Image clients need `/media`
-  support; others still see the title, alt text, and flag.
+  `` `(…`w=n`:/media/colorado-mesh-header.webp) `` (WebP under `pages/`; page
+  `` `c `` centers the image — omit `` `a=c` `` so older NomadNet does not treat
+  `` `a `` as an align reset), then `` `c `` again before the ASCII Colorado flag.
+  Older NomadNet may show a mangled image line; mesh-client and NomadNet 1.4.1+
+  render the WebP. The “Site looks odd?” tip is a `# mesh-client:` comment —
+  invisible in NomadNet, shown as a hint banner in mesh-client.
 - **Italic links** — soft and CTA links wrap the label in `` `*`[label`url]`*` ``:
   in the vendored parser `*` toggles *italic* (`` `_ `` toggles *underline*).
   The viewer underlines every anchor via CSS, so the `` `* `` spans keep

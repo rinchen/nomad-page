@@ -1,16 +1,14 @@
 #!bg=020617
 #!fg=d1d5db
+# mesh-client: Site looks odd? Get the mesh client → /page/mesh-client.mu
 `c
-`FT334155
--
-`f
-`FT020617Site looks odd? `[Get the mesh client`:/page/mesh-client.mu]`
 `FT334155
 -
 `f
 `FT22d3a5`!COLORADO MESH`!`f
 `FTffffffColorado's Mesh Network Community`f
-`(Colorado Mesh header`w=n`a=c`:/media/colorado-mesh-header.webp)
+`(Colorado Mesh header`w=n`:/media/colorado-mesh-header.webp)
+`c
 `FT1d4ed8█████████████████████`f
 `FT1d4ed8█████████████████████`f
 `FTffffff████`f`FTbf2033████`f`FTffffff█`f`FTffc726████`f`FTffffff████████`f
