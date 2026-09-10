@@ -23,7 +23,10 @@ message history is stored in SQLite.
 RRC (Reticulum Relay Chat)
 ==========================
 
-Live chat rooms over the Reticulum mesh. Add the hub in the
-app's RRC tab (Reticulum > RRC > Add hub) and join a room:
+Live chat rooms over the Reticulum mesh. In NomadNet 1.4.1+
+or mesh-client, open an rrc:// link (or add the hub under
+Reticulum > RRC > Add hub) and join a room:
 
+  * Join #general:
+    rrc://d765e919676aa0340412a1afae006553/general
   * Colorado Mesh hub hash: d765e919676aa0340412a1afae006553

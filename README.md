@@ -29,9 +29,14 @@ Community links match the mesh-client app footer:
 - GitHub: https://github.com/Colorado-Mesh/mesh-client
 
 The community pages also publish the Colorado Mesh RRC (Reticulum
-Relay Chat) hub destination hash `d765e919676aa0340412a1afae006553`,
-rendered in a literal block on `community`, `resources`, and
-`README` pages, and in `files/mesh-client-links.txt`.
+Relay Chat) hub as NomadNet 1.4.1-style deep links:
+
+`rrc://d765e919676aa0340412a1afae006553/general`
+
+Clickable `` `[label`rrc://…/room]` `` links appear on `index`,
+`community`, `resources`, and `README`. The same URL (and bare hub
+hash) stay in literal blocks and `files/mesh-client-links.txt` for
+manual paste on older clients.
 
 Community content on the pages (regional groups, weekly net, tools, coverage
 maps) is sourced from [coloradomesh.org](https://coloradomesh.org), licensed
@@ -70,9 +75,9 @@ vendored `micron-parser.js`:
   browser scroll to it). `:top` + `Back to top` links are on every page.
 - **Index hero (image then flag)** — truecolor `` `FT22d3a5` `` “COLORADO MESH”
   title, then a NomadNet 1.4.1 image tag
-  `` `(…`w=n`:/media/colorado-mesh-header.webp) `` (WebP under `pages/`; page
-  `` `c `` centers the image — omit `` `a=c` `` so older NomadNet does not treat
-  `` `a `` as an align reset), then `` `c `` again before the ASCII Colorado flag.
+  `` `(…`w=60`a=c`:/media/colorado-mesh-header.webp) `` (WebP under `pages/`;
+  `w=60` is ~60 terminal columns, `a=c` centers per NomadNet 1.4.1 ImageWidget),
+  then `` `c `` again before the ASCII Colorado flag.
   The “Site looks odd?” line uses `` `FT020617` `` (same as `#!bg`) so color-capable
   clients (mesh-client, NomadNet truecolor) render it invisible; clients without
   truecolor may still show the tip.
@@ -81,10 +86,18 @@ vendored `micron-parser.js`:
   The viewer underlines every anchor via CSS, so the `` `* `` spans keep
   descriptive/CTA links visually distinct.
 - **Literal blocks** — `` `= `` on its own line toggles monospace literal mode;
-  used for hashes and config snippets (`lxmf://` address, RRC hub hash + add-hub
-  steps, Meshtastic channel config). Keep lines ≤ 80 cols.
+  used for hashes and config snippets (`lxmf://` address, `rrc://` hub URL,
+  Meshtastic channel config). Keep lines ≤ 80 cols.
 - **Tables** — `` `tc `` / `` `tl `` / `` `tr `` open a table, `` `t `` closes it.
   Alignment is set on the separator row (`:---|`, `|---|`, `|:---:|`).
+- **Collapsible sections** — NomadNet 1.4.1 `` `+> `` (open) / `` `-> `` (collapsed)
+  headings; closed with a lone `` < `` when needed. Used on `community` for the
+  regional Discord channel list.
+- **RRC deep links** — `` `[Join #general`rrc://<32-hex>/general]` `` opens the
+  hub (and room) in NomadNet 1.4.1+ / mesh-client. Alternate forms `rrc@…` and
+  `rrc.hub.session@…` are also recognized by clients; this site uses `rrc://`.
+- **Remote node links** — prefer `` `hash:/page/index.mu` `` (not bare hash) so
+  browsers open the peer’s home page explicitly.
 - **Nerd Font icons** — glyphs like `` `` `` `` `` `` are FA4 codepoints,
   rendered by a locally installed Nerd Font; used only on link/header lines so
   body prose stays readable without one.
@@ -121,6 +134,9 @@ After serving, confirm:
   colors reset between sections
 - Index shows COLORADO MESH header, Denver WebP via `/media` (when the
   client supports NomadNet 1.4.1 images), then the ASCII flag
+- `rrc://…/general` links open RRC (or copy-paste from literal blocks)
+- `links` page destinations use `hash:/page/index.mu`
+- Collapsible regional channel list on `community` folds/unfolds
 
 ## License
 

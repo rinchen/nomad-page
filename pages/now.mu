@@ -23,8 +23,9 @@ What I'm focused on right now.
 `FT334155
 -.
 `f
-`FT94a3b8Updated: 2026`f
+`FT94a3b8Updated: 2026-09`f
 
+  * NomadNet 1.4.1 parity: `/media` WebP hero, `rrc://` hub links
   * Stand up this `FTf59e0bReticulum`f Nomad node on 915 MHz
   * Check into the Colorado Mesh weekly net on Thursdays
   * Flash a `FT22d3eeMeshCore`f companion and help map coverage

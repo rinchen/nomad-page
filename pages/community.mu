@@ -89,19 +89,20 @@ Colorado Mesh runs a `FTf59e0bReticulum`f Relay Chat (RRC)
 hub - real-time chat rooms straight over the mesh, no
 internet needed.
 
-Add this hub in any RRC-capable client (or join in Nomad
-Net 1.1.0+). In the `FT86efac`!Colorado Mesh Mesh Client`!`f,
-open `FTf59e0bReticulum`f -> RRC -> Add hub, paste the hash,
-and join a room:
+`BT1e293b`FTfbbf24`*`[Join #general on Colorado Mesh RRC`rrc://d765e919676aa0340412a1afae006553/general]`*`b`f
+
+NomadNet 1.4.1+ and mesh-client open `FTf59e0brrc://`f links
+directly (hub + optional room). Older clients: open
+`FTf59e0bReticulum`f -> RRC -> Add hub, paste the URL or hash,
+then `/join general`.
 
 `=
-d765e919676aa0340412a1afae006553
+rrc://d765e919676aa0340412a1afae006553/general
 `=
 
 `=
+hub hash: d765e919676aa0340412a1afae006553
 mesh-client: Reticulum -> RRC -> Add hub
-paste: d765e919676aa0340412a1afae006553
-join: #general
 `=
 
 The chat hub currently has a `FTf59e0b#general`f room to get
@@ -122,6 +123,7 @@ list - `FT86efac`*`[see all regional groups`https://discord.coloradomesh.org]`*`
 
 Current regional channels on the Discord server:
 
+`->Regional Discord channels
 `tl
 | region |
 |:-------|
@@ -138,6 +140,7 @@ Current regional channels on the Discord server:
 | Western Slope |
 | Summit County |
 `t
+<
 
 Groups with regional pages on coloradomesh.org (currently
 under construction as regional portals are created) link
@@ -157,7 +160,7 @@ everyone checks in every week.
 | `FT86efacMeshtastic`f | Thursdays 7 pm MDT, Channel 0 (Long-Fast) |
 | `FT86efacMeshtastic MQTT`f | mqtt.meshtastic.org, topic `FT94a3b8msh/US/CO`f |
 | `FT22d3eeMeshCore`f | Thursdays 7 pm MDT, `FT22d3ee`[weekly net portal`https://weekly-net.meshcore.coloradomesh.org]`f |
-| `FTf59e0bReticulum`f | Thursdays 7 pm MDT, `FTf59e0b`[RRC hub`#rrc]` - room `FTf59e0b#general`f |
+| `FTf59e0bReticulum`f | Thursdays 7 pm MDT, `FTf59e0b`[Join #general`rrc://d765e919676aa0340412a1afae006553/general]`f |
 | `FTf59e0bDiscord`f | `FTf59e0b`[net check-in channels`https://discord.coloradomesh.org]`f |
 `t
 
