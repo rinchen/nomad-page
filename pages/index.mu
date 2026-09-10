@@ -1,7 +1,7 @@
 #!bg=020617
 #!fg=d1d5db
-# mesh-client: Site looks odd? Get the mesh client → /page/mesh-client.mu
 `c
+`FT020617Site looks odd? `[Get the mesh client`:/page/mesh-client.mu]`
 `FT334155
 -
 `f

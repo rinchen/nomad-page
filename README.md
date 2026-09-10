@@ -73,9 +73,9 @@ vendored `micron-parser.js`:
   `` `(…`w=n`:/media/colorado-mesh-header.webp) `` (WebP under `pages/`; page
   `` `c `` centers the image — omit `` `a=c` `` so older NomadNet does not treat
   `` `a `` as an align reset), then `` `c `` again before the ASCII Colorado flag.
-  Older NomadNet may show a mangled image line; mesh-client and NomadNet 1.4.1+
-  render the WebP. The “Site looks odd?” tip is a `# mesh-client:` comment —
-  invisible in NomadNet, shown as a hint banner in mesh-client.
+  The “Site looks odd?” line uses `` `FT020617` `` (same as `#!bg`) so color-capable
+  clients (mesh-client, NomadNet truecolor) render it invisible; clients without
+  truecolor may still show the tip.
 - **Italic links** — soft and CTA links wrap the label in `` `*`[label`url]`*` ``:
   in the vendored parser `*` toggles *italic* (`` `_ `` toggles *underline*).
   The viewer underlines every anchor via CSS, so the `` `* `` spans keep
