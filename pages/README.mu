@@ -35,7 +35,11 @@ served over `FTf59e0bReticulum`f by the
 `f
 `BT1e293b`FTfbbf24`*`[ Colorado Mesh Discord`https://discord.coloradomesh.org]`*`b`f
 `BT1e293b`FTfbbf24`*`[ coloradomesh.org`https://coloradomesh.org]`*`b`f
-`FTf59e0b`!RRC hub`!`f d765e919676aa0340412a1afae006553
+`BT1e293b`FTfbbf24`*`[Join #general on RRC`rrc://d765e919676aa0340412a1afae006553/general]`*`b`f
+
+`=
+rrc://d765e919676aa0340412a1afae006553/general
+`=
 
 `FT334155
 -.

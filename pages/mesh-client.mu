@@ -54,6 +54,8 @@ or Wi-Fi/TCP and keep local message history in SQLite.
   * Routing diagnostics and topology tools
   * Local-first message history in SQLite
   * `FTf59e0bNomad Network`f browsing and page hosting
+  * Clickable `FTf59e0brrc://`f hub links and LXMF addresses
+  * NomadNet 1.4.1 Micron: `/media` WebP images, collapsibles
   * TAK server for ATAK/WinTAK/iTAK
   * Interactive map with position trails and waypoint overlays
   * Node health scores and telemetry charts

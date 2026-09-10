@@ -83,7 +83,9 @@ all three on the same 915 MHz band.
 `f
 `FTf59e0b`*`[Nomad Network Guide`https://github.com/markqvist/NomadNet]`*`f
 Learn how to host your own pages on the encrypted mesh
-and browse what others are sharing.
+and browse what others are sharing. NomadNet 1.4.1 adds
+`FTf59e0b/media`f WebP images, collapsible sections, and
+clickable `FTf59e0brrc://`f hub links.
 
 `:hardware`FT60a5fa`!HARDWARE`!`f
 `FT334155
@@ -136,9 +138,13 @@ Standards, region definitions, and naming conventions.
 `FT86efac`*`[Meshtastic map`https://map.meshtastic.coloradomesh.org]`*`f
 Live health and coverage for the Colorado networks.
 
-`FTf59e0b`!RRC hub`!`f - live relay chat over the mesh:
+`FTf59e0b`!RRC hub`!`f - live relay chat over the mesh
+(NomadNet 1.4.1+ / mesh-client):
+
+`BT1e293b`FTfbbf24`*`[Join #general`rrc://d765e919676aa0340412a1afae006553/general]`*`b`f
+
 `=
-d765e919676aa0340412a1afae006553
+rrc://d765e919676aa0340412a1afae006553/general
 `=
 
 `:community`FT60a5fa`!COMMUNITY`!`f

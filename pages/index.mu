@@ -7,7 +7,7 @@
 `f
 `FT22d3a5`!COLORADO MESH`!`f
 `FTffffffColorado's Mesh Network Community`f
-`(Colorado Mesh header`w=n`:/media/colorado-mesh-header.webp)
+`(Colorado Mesh header`w=60`a=c`:/media/colorado-mesh-header.webp)
 `c
 `FT1d4ed8█████████████████████`f
 `FT1d4ed8█████████████████████`f
@@ -38,6 +38,7 @@ LoRa: `FT86efacMeshtastic`f, `FT22d3eeMeshCore`f, and `FTf59e0bReticulum`f.
 `FT86efac`[ About me`:/page/about.mu]`f
 `FT22d3ee`[ The Colorado Mesh Mesh Client`:/page/mesh-client.mu]`f
 `FTf59e0b`[ Join the community`:/page/community.mu]`f
+`FTf59e0b`[Join live RRC #general`rrc://d765e919676aa0340412a1afae006553/general]`f
 `FT60a5fa`[ Resources`:/page/resources.mu]`f
 `FTf59e0b`[ Links`:/page/links.mu]`f
 `FT94a3b8`[Now`:/page/now.mu]`f
